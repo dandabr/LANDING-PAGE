@@ -1,0 +1,125 @@
+:root {
+    --cor-primaria-botoes: rgb(255, 186, 83);
+    --cor-secundaria-botoes: rgb(154, 255, 154);
+    --cor-primaria-hover: green;
+    --cor-secundaria-hover: orangered;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none
+    }   
+    @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Roboto+Slab:wght@100&display=swap');
+body {
+        font-size: 100%;
+        background:linear-gradient(-50deg, gray 11%,rgb(70, 70, 70) 89%);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.cabecalho {
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(175, 114, 0);
+    font-weight: 300;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px, 0px, 0px;
+}
+
+.cabecalho-menu {
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    
+
+}
+
+.cabecalho-menu-item {
+    border-style: groove;
+    border-color: black;
+    border-width: 3px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(32, 32, 32);
+    color: orangered;
+
+}
+.conteudo {
+    border-style: solid;
+    border-top-color: beige;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-bottom: 0ch;
+    border-width: 0.4px;
+    display: block;
+
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: row;
+    align-items:initial;
+    gap: 300px;
+    margin-top: 30px;
+    margin-left: 260px;
+}
+
+
+.conteudo-principal-titulo {
+    height: 300px;
+    width: 300px;
+}
+
+.conteudo-principal-escrito-botao {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    height: 32px;
+    padding: 10px;
+    margin-top: 35px;
+    background: var(--cor-primaria-botoes);
+    transition: background-color .3s;
+    border-radius: 3px;
+
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: var( --cor-primaria-hover);
+}
+
+.conteudo-principal-escrito-botao:active {
+    background-color: var( --cor-secundaria-hover);
+    color: white;
+}
+.conteudo-secundario-escrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    gap: 13px;
+    color: bisque;
+}
+
+.container {
+    padding-right: 130px;
+    padding-left: 300px;
+    color:chocolate;
+}
+
+.homem-tocando {
+    float: right;
+}
+
+button {
+    border: none;
+}
+
+
+
